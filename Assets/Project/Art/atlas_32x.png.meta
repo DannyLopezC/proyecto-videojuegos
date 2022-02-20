@@ -71,6 +71,66 @@ TextureImporter:
   - first:
       213: 1286646688194681834
     second: Wall_Down
+  - first:
+      213: -6421757174855522294
+    second: TV_0
+  - first:
+      213: -8024538382143722836
+    second: TV_1
+  - first:
+      213: -5057758721394027364
+    second: Painting_0
+  - first:
+      213: 3767791628816845476
+    second: BookCase_0
+  - first:
+      213: -2949598064082052
+    second: BookCase_1
+  - first:
+      213: -8457533386350857489
+    second: BookCase_2
+  - first:
+      213: -7318602937171345531
+    second: BookCase_3
+  - first:
+      213: -8778979908042694101
+    second: Painting_1
+  - first:
+      213: -6797516597438480764
+    second: Window_0
+  - first:
+      213: 2308762038585715485
+    second: CortainL
+  - first:
+      213: -6519094628208049575
+    second: CortainR
+  - first:
+      213: 5303425639649191864
+    second: GlassTable_0
+  - first:
+      213: -4004840187802495507
+    second: GlassTable_1
+  - first:
+      213: -3373134919947808262
+    second: GlassTable_2
+  - first:
+      213: -8928612617890780555
+    second: GlassTable_3
+  - first:
+      213: 3098525392546953385
+    second: Book_0
+  - first:
+      213: 4228691387150626066
+    second: TableSmall
+  - first:
+      213: -5177612785019317041
+    second: Flowers_0
+  - first:
+      213: 2606680501599210370
+    second: Vase_0
+  - first:
+      213: -2682459487595331082
+    second: BlueRug
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -638,6 +698,426 @@ TextureImporter:
       bones: []
       spriteID: aebd64198561bd110800000000000000
       internalID: 1286646688194681834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TV_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08abe69fd551e6a0800000000000000
+      internalID: -6421757174855522294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TV_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caae5d57bdc13a090800000000000000
+      internalID: -8024538382143722836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting_0
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 80
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94dca37d3b3fc9b0800000000000000
+      internalID: -5057758721394027364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookCase_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa81571682e94430800000000000000
+      internalID: 3767791628816845476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookCase_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73092f2b5585fff0800000000000000
+      internalID: -2949598064082052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookCase_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2fc8ee13ec0aa80800000000000000
+      internalID: -8457533386350857489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookCase_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f75cd77691f6a90800000000000000
+      internalID: -7318602937171345531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22e2d2694cca2680800000000000000
+      internalID: -8778979908042694101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window_0
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 466
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e7bde5bae5aa1a0800000000000000
+      internalID: -6797516597438480764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CortainL
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 396
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1beecc77de5a0020800000000000000
+      internalID: 2308762038585715485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CortainR
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 396
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952808ca9f58785a0800000000000000
+      internalID: -6519094628208049575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlassTable_0
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b72dff358d899940800000000000000
+      internalID: 5303425639649191864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlassTable_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5d2d75113fb68c0800000000000000
+      internalID: -4004840187802495507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlassTable_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af19b0579a73031d0800000000000000
+      internalID: -3373134919947808262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlassTable_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57aac8d3122371480800000000000000
+      internalID: -8928612617890780555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book_0
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 403
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8f9468d6c200b20800000000000000
+      internalID: 3098525392546953385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TableSmall
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21deddb79645faa30800000000000000
+      internalID: 4228691387150626066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_0
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 189
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4176caa9c6528b0800000000000000
+      internalID: -5177612785019317041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vase_0
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b02ccfa1acc2420800000000000000
+      internalID: 2606680501599210370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRug
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 336
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1018dee4df5cad0800000000000000
+      internalID: -2682459487595331082
       vertices: []
       indices: 
       edges: []

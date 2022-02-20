@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActiveInventario : MonoBehaviour
+public class ActiveInventory : MonoBehaviour
 {
     public GameObject Inventario;
     // Start is called before the first frame update

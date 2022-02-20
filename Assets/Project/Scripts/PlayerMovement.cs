@@ -1,14 +1,28 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider2D), typeof(Animator))]
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed;
-    public Rigidbody2D rb;
+    private BoxCollider2D boxCollider;
+    private Vector3 moveDelta;
+    private RaycastHit2D hit;
+    private Animator animator;
 
-    private Vector2 _movement;
+    private static readonly int Vertical = Animator.StringToHash("Vertical");
+    private static readonly int Horizontal = Animator.StringToHash("Horizontal");
+    private static readonly int Speed = Animator.StringToHash("Speed");
+    private static readonly int FacingRight = Animator.StringToHash("FacingRight");
+    private static readonly int FacingUp = Animator.StringToHash("FacingUp");
+    private static readonly int FacingDown = Animator.StringToHash("FacingDown");
+    private static readonly int FacingLeft = Animator.StringToHash("FacingLeft");
+
+    private void Start()
+    {
+        boxCollider = GetComponent<BoxCollider2D>();
+        animator = GetComponent<Animator>();
+    }
 
     private void FixedUpdate()
     {
@@ -17,21 +31,68 @@ public class PlayerMovement : MonoBehaviour
 
     private void Movement()
     {
-        //getting keys values
-        _movement.x = Input.GetAxisRaw("Horizontal");
-        _movement.y = Input.GetAxisRaw("Vertical");
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
 
-        //changing the face direction
-        if (_movement.x < 0)
+        moveDelta = new Vector3(x, y, 0);
+
+        PlayerAnimations();
+
+        //Y movement
+        hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(0, moveDelta.y),
+            Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Player", "Blocking"));
+        if (hit.collider == null)
         {
-            transform.rotation = Quaternion.Euler(transform.rotation.x, 180, transform.rotation.z);
-        }
-        else if (_movement.x > 0)
-        {
-            transform.rotation = Quaternion.Euler(transform.rotation.x, 0, transform.rotation.z);
+            transform.Translate(0, moveDelta.y * Time.deltaTime, 0);
         }
 
-        //applying the movement
-        rb.MovePosition(rb.position + _movement * moveSpeed * Time.fixedDeltaTime);
+        //X movement
+        hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(moveDelta.x, 0),
+            Mathf.Abs(moveDelta.x * Time.deltaTime), LayerMask.GetMask("Player", "Blocking"));
+        if (hit.collider == null)
+        {
+            transform.Translate(moveDelta.x * Time.deltaTime, 0, 0);
+        }
+    }
+
+    private void PlayerAnimations()
+    {
+        animator.SetFloat(Vertical, moveDelta.y);
+        animator.SetFloat(Horizontal, moveDelta.x);
+        animator.SetFloat(Speed, moveDelta.sqrMagnitude);
+
+        PlayerRotation();
+    }
+
+    private void PlayerRotation()
+    {
+        if (moveDelta.x > 0)
+        {
+            animator.SetBool(FacingRight, true);
+            animator.SetBool(FacingUp, false);
+            animator.SetBool(FacingDown, false);
+            animator.SetBool(FacingLeft, false);
+        }
+        else if (moveDelta.x < 0)
+        {
+            animator.SetBool(FacingLeft, true);
+            animator.SetBool(FacingRight, false);
+            animator.SetBool(FacingUp, false);
+            animator.SetBool(FacingDown, false);
+        }
+        else if (moveDelta.y < 0)
+        {
+            animator.SetBool(FacingDown, true);
+            animator.SetBool(FacingLeft, false);
+            animator.SetBool(FacingRight, false);
+            animator.SetBool(FacingUp, false);
+        }
+        else if (moveDelta.y > 0)
+        {
+            animator.SetBool(FacingUp, true);
+            animator.SetBool(FacingLeft, false);
+            animator.SetBool(FacingRight, false);
+            animator.SetBool(FacingDown, false);
+        }
     }
 }

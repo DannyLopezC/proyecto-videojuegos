@@ -10,6 +10,8 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text dialogueText;
     private List<string> _sentences;
     public GameObject button;
+    private bool writing;
+    private string currentSentence;
 
     public bool ButtonsOff
     {
@@ -41,7 +43,7 @@ public class DialogueManager : MonoBehaviour
         nameText.text = dialogue.name;
 
         _sentences.Clear();
-        gm.inDialogue = true;
+        // gm.inDialogue = true;
 
         foreach (string s in dialogue.sentences) _sentences.Add(s);
 
@@ -51,16 +53,17 @@ public class DialogueManager : MonoBehaviour
 
     private void DisplaySentence()
     {
-        string s = _sentences[Random.Range(0, _sentences.Count - 1)];
+        currentSentence = _sentences[Random.Range(0, _sentences.Count - 1)];
 
         StopAllCoroutines();
-        StartCoroutine(Type(s));
+        StartCoroutine(Type(currentSentence));
     }
 
     IEnumerator Type(string s, bool goodbye = false)
     {
+        writing = true;
         ButtonsOff = goodbye;
-        gm.inDialogue = true;
+        // gm.inDialogue = true;
         dialogueText.text = "";
         foreach (char l in s)
         {
@@ -68,28 +71,28 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
 
+        writing = false;
         if (goodbye)
         {
             yield return new WaitForSeconds(1.5f);
             animator.SetTrigger(Hide);
-            gm.inDialogue = false;
+            // gm.inDialogue = false;
             _buttonsOff = false;
         }
     }
 
-    public void EndDialogue(bool accept)
+    public void EndDialogue()
     {
-        if (accept)
+        if (writing)
         {
-            animator.SetTrigger(Hide);
-            gm.inDialogue = false;
+            StopAllCoroutines();
+            dialogueText.text = currentSentence;
+            writing = false;
         }
         else
         {
-            if (!gm.inDialogue) animator.SetTrigger(Show);
-            string s = gm.goodbyeDialogue.sentences[Random.Range(0, gm.goodbyeDialogue.sentences.Count - 1)];
-            StopAllCoroutines();
-            StartCoroutine(Type(s, true));
+            animator.SetTrigger(Hide);
+            // gm.inDialogue = false;
         }
     }
 }

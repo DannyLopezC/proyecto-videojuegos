@@ -15,8 +15,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Lighting Internal (Game)
+  - Lighting Internal (Scene)
   - 
   - 
   - 
@@ -49,4 +49,10 @@ TagManager:
     locked: 0
   - name: Item
     uniqueID: 3826339297
+    locked: 0
+  - name: MySprites
+    uniqueID: 2642773763
+    locked: 0
+  - name: MyLighting
+    uniqueID: 1867325683
     locked: 0

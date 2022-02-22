@@ -24,7 +24,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Sorry");
     }
 
-    public void EsceneMainMenu(){
-        SceneManager.LoadScene("Main_Menu");
-    }
+    
+    
 }

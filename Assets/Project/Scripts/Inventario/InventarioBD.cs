@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Data", menuName = "Inventory/List", order = 1)]
-public class InventarioBaseDatos : ScriptableObject
+[CreateAssetMenu(fileName = "BDInventario", menuName = "Inventory/BaseDatos", order = 1)]
+public class InventarioBD : ScriptableObject
 {
     [System.Serializable]
     public struct ObjetoInventario

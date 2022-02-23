@@ -13,12 +13,12 @@ public class InventarioCollider : MonoBehaviour {
 
 
 	// Update is called once per frame
-	void OnTriggerEnter (Collider col)
+	void OnTriggerEnter2D (Collider2D col)
     {
         if (col.GetComponent<InventarioObjetoRecogible>() != null)
         {
             InventarioObjetoRecogible i = col.GetComponent<InventarioObjetoRecogible>();
-            m.AgregarAlgoAlInventario(i.id, i.cantidad);
+            m.addInventario(i.id, i.cantidad);
             Destroy(col.gameObject);
         }		
 	}

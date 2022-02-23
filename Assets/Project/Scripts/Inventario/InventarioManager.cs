@@ -17,24 +17,24 @@ public class InventarioManager : MonoBehaviour {
         }
     }
 
-    public InventarioBaseDatos baseDatos;
+    public InventarioBD baseDatos;
     public List<ObjetoInventarioId> inventario;
 
-    public void AgregarAlgoAlInventario(int id, int cantidad)
+    public void addInventario(int id, int cantidad)
     {
         for (int i = 0; i < inventario.Count; i++)
         {
             if (inventario[i].id == id)
             {
                 inventario[i] = new ObjetoInventarioId(inventario[i].id, inventario[i].cantidad + cantidad);
-                ActualizarInventario();
+                updateInventario();
                 return;
             }
         }
         inventario.Add(new ObjetoInventarioId(id, cantidad));
-        ActualizarInventario();
+        updateInventario();
     }
-    public void EliminarAlgoDeInventario(int id, int cantidad)
+    public void deleteInventario(int id, int cantidad)
     {
         for (int i = 0; i < inventario.Count; i++)
         {
@@ -43,7 +43,7 @@ public class InventarioManager : MonoBehaviour {
                 inventario[i] = new ObjetoInventarioId(inventario[i].id, inventario[i].cantidad - cantidad);
                 if (inventario[i].cantidad <= 0)
                     inventario.Remove(inventario[i]);
-                ActualizarInventario();
+                updateInventario();
                 return;
             }
         }
@@ -55,12 +55,20 @@ public class InventarioManager : MonoBehaviour {
         ObjetoInventarioId i = inventario[i1];
         inventario[i1] = inventario[i2];
         inventario[i2] = i;
-        ActualizarInventario();
+        updateInventario();
     }
 
     public void Start()
     {
-        ActualizarInventario();
+        updateInventario();
+    }
+
+    public void Update()
+    {
+        if( Input.GetKeyDown(KeyCode.Q))
+        {
+            updateInventario();
+        }
     }
 
 
@@ -68,7 +76,7 @@ public class InventarioManager : MonoBehaviour {
     public Transform inventarioUI;
     List<InventarioObjetoInterface> pool = new List<InventarioObjetoInterface>();
 
-    public void ActualizarInventario()
+    public void updateInventario()
     {
         print("InventarioActualizado");
         for (int i = 0; i < pool.Count; i++)
@@ -117,6 +125,7 @@ public class InventarioManager : MonoBehaviour {
 
     public void Pocion()
     {
-        EliminarAlgoDeInventario(0, 1);
+        print("Usada");
+        deleteInventario(0, 1);
     }
 }

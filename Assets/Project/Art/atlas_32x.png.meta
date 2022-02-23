@@ -131,6 +131,36 @@ TextureImporter:
   - first:
       213: -2682459487595331082
     second: BlueRug
+  - first:
+      213: -4362702213184131201
+    second: Table_Flower
+  - first:
+      213: 4070458523885674563
+    second: Board_Paper
+  - first:
+      213: -3952301110995674216
+    second: Desk
+  - first:
+      213: -7554989564462775620
+    second: Chest_Closed
+  - first:
+      213: -7353053843893541245
+    second: Coffe_Mug
+  - first:
+      213: -4349338597001394538
+    second: Painting_2
+  - first:
+      213: 601877946606575717
+    second: Sofa_Left
+  - first:
+      213: 3952794752326576652
+    second: Book_Stand
+  - first:
+      213: 982211434896510524
+    second: Wall_Clock
+  - first:
+      213: 3066917302318184930
+    second: Table
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1110,7 +1140,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1118,6 +1148,216 @@ TextureImporter:
       bones: []
       spriteID: 6f1018dee4df5cad0800000000000000
       internalID: -2682459487595331082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Table_Flower
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 2
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f6952a3719473c0800000000000000
+      internalID: -4362702213184131201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Board_Paper
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 100
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340aa25167c2d7830800000000000000
+      internalID: 4070458523885674563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desk
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b98b9641b9629c0800000000000000
+      internalID: -3952301110995674216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chest_Closed
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 482
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2c968e409472790800000000000000
+      internalID: -7554989564462775620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffe_Mug
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386a764bc74b4f990800000000000000
+      internalID: -7353053843893541245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painting_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 144
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69606ddf69b04a3c0800000000000000
+      internalID: -4349338597001394538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sofa_Left
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56060a5bdcc4a5800800000000000000
+      internalID: 601877946606575717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book_Stand
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a247a62e52bd630800000000000000
+      internalID: 3952794752326576652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Clock
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 32
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e4557981481ad00800000000000000
+      internalID: 982211434896510524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Table
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9bc288901ef8a20800000000000000
+      internalID: 3066917302318184930
       vertices: []
       indices: 
       edges: []

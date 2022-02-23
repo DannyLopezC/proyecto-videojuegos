@@ -66,6 +66,11 @@ public class InventarioManager : MonoBehaviour {
 
     public void Update()
     {
+        if( Input.GetKeyDown(KeyCode.Z))
+        {
+            sacarDelInventario();
+        }
+
         if( Input.GetKeyDown(KeyCode.Q))
         {
             updateInventario();
@@ -123,6 +128,17 @@ public class InventarioManager : MonoBehaviour {
                 pool[i].boton.onClick.AddListener(() => gameObject.SendMessage(baseDatos.baseDatos[o.id].funcion, SendMessageOptions.DontRequireReceiver));
 
                 pool[i].gameObject.SetActive(true);
+            }
+        }
+    }
+
+    public void sacarDelInventario(){
+        for (int i = 0; i < pool.Count; i++){
+            print(pool[i].isActive);
+            if(!pool[i].isActive){
+                deleteInventario(pool[i].id, 1);
+                print("Objeto eliminado");
+                break;
             }
         }
     }

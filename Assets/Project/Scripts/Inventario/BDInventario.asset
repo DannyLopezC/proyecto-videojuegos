@@ -32,7 +32,7 @@ MonoBehaviour:
     sprite: {fileID: -4576100563654837243, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
     uso: 2
     caracteristicas: 
-    funcion: 
+    funcion: Pocion
   - nombre: crital
     sprite: {fileID: 6963310780842402770, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
     uso: 1

@@ -130,6 +130,6 @@ public class InventarioManager : MonoBehaviour {
     public void Pocion()
     {
         print("Usada");
-        deleteInventario(0, 1);
+        deleteInventario(3, 1);
     }
 }

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82979e7ee01af3046b03ad965bf337ef, type: 3}
+  m_Name: BDInventario
+  m_EditorClassIdentifier: 
+  baseDatos:
+  - nombre: pergamino
+    sprite: {fileID: 5088316998373936774, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+    uso: 0
+    caracteristicas: 
+    funcion: 
+  - nombre: hoja
+    sprite: {fileID: -1495796495427720775, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+    uso: 0
+    caracteristicas: 
+    funcion: 
+  - nombre: libros
+    sprite: {fileID: -82757199298946268, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+    uso: 0
+    caracteristicas: 
+    funcion: 
+  - nombre: posion
+    sprite: {fileID: -4576100563654837243, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+    uso: 2
+    caracteristicas: 
+    funcion: Pocion
+  - nombre: crital
+    sprite: {fileID: 6963310780842402770, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+    uso: 1
+    caracteristicas: 
+    funcion: 
+  - nombre: cofre
+    sprite: {fileID: 3197245356676191804, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+    uso: 1
+    caracteristicas: 
+    funcion: 

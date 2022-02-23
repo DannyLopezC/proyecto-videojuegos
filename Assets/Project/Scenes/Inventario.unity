@@ -6397,9 +6397,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ac11421b9d9abd40977459aaf5ef0b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Inventario: {fileID: 885275414}
   baseDatos: {fileID: 11400000, guid: 5f9e7c562735b874f975c5ff105a031e, type: 2}
   inventario: []
-  prefab: {fileID: -8419672034393099989, guid: fc2bcab07ee68a944b43a843707b1e3e, type: 3}
+  prefab: {fileID: 5107230591680655320, guid: fc2bcab07ee68a944b43a843707b1e3e, type: 3}
   inventarioUI: {fileID: 1063370461}
 --- !u!114 &728296136
 MonoBehaviour:

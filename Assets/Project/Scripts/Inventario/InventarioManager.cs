@@ -17,6 +17,7 @@ public class InventarioManager : MonoBehaviour {
         }
     }
 
+    public GameObject Inventario;
     public InventarioBD baseDatos;
     public List<ObjetoInventarioId> inventario;
 
@@ -87,6 +88,8 @@ public class InventarioManager : MonoBehaviour {
                 pool[i].sprite.sprite = baseDatos.baseDatos[o.id].sprite;
                 pool[i].cantidad.text = o.cantidad.ToString();
                 pool[i].id = i;
+                pool[i].isActive = false;
+                pool[i].cambiarColorFondo();
 
                 pool[i].boton.onClick.RemoveAllListeners();
                 pool[i].boton.onClick.AddListener(() => gameObject.SendMessage(baseDatos.baseDatos[o.id].funcion, SendMessageOptions.DontRequireReceiver));
@@ -105,7 +108,7 @@ public class InventarioManager : MonoBehaviour {
                 InventarioObjetoInterface oi = Instantiate(prefab, inventarioUI);
                 pool.Add(oi);
 
-                oi.transform.position = Vector3.zero; // 
+                oi.transform.position = Vector3.zero; 
                 oi.transform.localScale = Vector3.one;
 
                 ObjetoInventarioId o = inventario[i];
@@ -113,6 +116,8 @@ public class InventarioManager : MonoBehaviour {
                 pool[i].cantidad.text = o.cantidad.ToString();
                 pool[i].id = i;
                 pool[i].manager = this;
+                pool[i].isActive = false;
+                pool[i].cambiarColorFondo();
 
                 pool[i].boton.onClick.RemoveAllListeners();
                 pool[i].boton.onClick.AddListener(() => gameObject.SendMessage(baseDatos.baseDatos[o.id].funcion, SendMessageOptions.DontRequireReceiver));
@@ -121,7 +126,6 @@ public class InventarioManager : MonoBehaviour {
             }
         }
     }
-
 
     public void Pocion()
     {

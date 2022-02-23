@@ -9,8 +9,11 @@ public class InventarioObjetoInterface : MonoBehaviour, IBeginDragHandler, IDrag
 {
     public Text cantidad;
     public Image sprite;
+    public Image fondoitem;
     public Button boton;
     public int id;
+
+    public bool isActive = false;
 
     public InventarioManager manager;
 
@@ -43,4 +46,21 @@ public class InventarioObjetoInterface : MonoBehaviour, IBeginDragHandler, IDrag
 
        manager.IntercambiarPuestos(id, arrastrando.id);
     }
+
+    public void cambiarColorFondoItem(){
+        manager.updateInventario();
+        cambiarColorFondo();
+    }
+
+    public void cambiarColorFondo(){
+        if(isActive){
+            fondoitem.GetComponent<Image>().color = Color.yellow;
+            isActive = !isActive;
+        }
+        else{
+            fondoitem.GetComponent<Image>().color = Color.white;
+            isActive = !isActive;
+        }        
+    }
+
 }

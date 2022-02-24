@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private Player player;
+    private PlayerMovement player;
     private float moveSpeed;
     private Vector3 directionToPlayer;
     private Vector3 localScale;
@@ -14,11 +14,12 @@ public class Movement : MonoBehaviour
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
-        player = FindObjectOfType(typeof(Player)) as Player;
+        player = FindObjectOfType(typeof(PlayerMovement)) as PlayerMovement;
         moveSpeed = 2f;
         localScale = transform.localScale;
     }
-     private void FixedUpdate()
+
+    private void FixedUpdate()
     {
         MoveEnemy();
     }
@@ -32,10 +33,11 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     private void LateUpdate()
     {
-        if(rb.velocity.x > 0)
+        if (rb.velocity.x > 0)
         {
             transform.localScale = new Vector3(localScale.x, localScale.y, localScale.z);
-        }else if(rb.velocity.x < 0)
+        }
+        else if (rb.velocity.x < 0)
         {
             transform.localScale = new Vector3(-localScale.x, localScale.y, localScale.z);
         }

@@ -12,7 +12,6 @@ public class MonsterMovement : MonoBehaviour
     private BoxCollider2D boxCollider2D;
     private RaycastHit2D hit;
     private Vector3 moveDelta;
-
     private Animator animator;
     private static readonly int Vertical = Animator.StringToHash("Vertical");
     private static readonly int Horizontal = Animator.StringToHash("Horizontal");
@@ -21,7 +20,12 @@ public class MonsterMovement : MonoBehaviour
     private static readonly int FacingUp = Animator.StringToHash("FacingUp");
     private static readonly int FacingDown = Animator.StringToHash("FacingDown");
     private static readonly int FacingLeft = Animator.StringToHash("FacingLeft");
-
+    private Vector3 lastPosition = new Vector3(0.0f, 0.0f, 0.0f);
+    private float moveAlone = 0.0f;
+    private bool moveLeft = true;
+    private bool moveRight = false;
+    private bool moveUp = false;
+    private bool moveDown = false;
 
     private void OnDrawGizmosSelected()
     {
@@ -57,10 +61,77 @@ public class MonsterMovement : MonoBehaviour
         }
         else
         {
-            x = 0;
-            y = 0;
-        }
+            float moveTime = 50.0f;
+            if(moveAlone > moveTime) {
+                if(moveLeft)
+                {
+                    x = -1;
+                    if (lastPosition == monsterPos)
+                    {
+                        moveLeft = false;
+                        moveDown = false;
+                        moveRight = false;
+                        moveUp = true;
+                        x = 0;
+                        lastPosition = new Vector3(0.0f, 0.0f, 0.0f);
+                    }
+                }
 
+                if (moveUp)
+                {
+                    y = 1;
+                    if (lastPosition == monsterPos)
+                    {
+                        moveLeft = false;
+                        moveDown = false;
+                        moveRight = true;
+                        moveUp = false;
+                        y = 0;
+                        lastPosition = new Vector3(0.0f, 0.0f, 0.0f);
+                    }
+                }
+
+                if (moveRight)
+                {
+                    x = 1;
+                    if (lastPosition == monsterPos)
+                    {
+                        moveLeft = false;
+                        moveDown = true;
+                        moveRight = false;
+                        moveUp = false;
+                        x = 0;
+                        lastPosition = new Vector3(0.0f, 0.0f, 0.0f);
+                    }
+                }
+
+                if (moveDown)
+                {
+                    y = -1;
+                    if (lastPosition == monsterPos)
+                    {
+                        moveLeft = true;
+                        moveDown = false;
+                        moveRight = false;
+                        moveUp = false;
+                        y = 0;
+                        lastPosition = new Vector3(0.0f, 0.0f, 0.0f);
+                    }
+                }
+
+                if(moveAlone > moveTime + 20.0f)
+                {
+                    moveAlone = 0.0f;
+                }
+
+            }
+            else
+            {
+                x = 0;
+                y = 0;
+            }
+            moveAlone += 1.0f;
+        }
         moveDelta = new Vector3(x, y,0);
 
         //animations
@@ -68,19 +139,24 @@ public class MonsterMovement : MonoBehaviour
         //Y movement
         hit = Physics2D.BoxCast(monsterPos, boxCollider2D.size, 0, new Vector2(0, moveDelta.y),
             Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Player", "Blocking"));
-        if (hit.collider != null)
+        if (hit.collider == null)
         {
-            return;
+            transform.Translate(0, (moveDelta.y * Time.deltaTime) / 2,0);
         }
-
+        else
+        {
+            lastPosition = monsterPos;
+        }
         //X movement
         hit = Physics2D.BoxCast(monsterPos, boxCollider2D.size, 0, new Vector2(moveDelta.x, 0),
             Mathf.Abs(moveDelta.x * Time.deltaTime), LayerMask.GetMask("Player", "Blocking"));
         if (hit.collider == null)
         {
-            transform.Translate((moveDelta * Time.deltaTime) / 2);
+            transform.Translate((moveDelta.x * Time.deltaTime) / 2,0,0);
         }
-
+        else { 
+            lastPosition = monsterPos; 
+        }
     }
 
     private void MonsterAnimation()

@@ -11,7 +11,7 @@ public class MonsterMovement : MonoBehaviour
     private PlayerMovement player;
     private BoxCollider2D boxCollider2D;
     private RaycastHit2D hit;
-    private Vector2 moveDelta;
+    private Vector3 moveDelta;
 
     private Animator animator;
     private static readonly int Vertical = Animator.StringToHash("Vertical");
@@ -48,7 +48,8 @@ public class MonsterMovement : MonoBehaviour
     {
         Vector3 playerPos = player.transform.position;
         Vector3 monsterPos = transform.position;
-        float x, y;
+        float x = 0;
+        float y = 0;
         if (lookAtPlayer)
         {
             x = playerPos.x > monsterPos.x ? 1 : -1;
@@ -79,6 +80,7 @@ public class MonsterMovement : MonoBehaviour
         {
             transform.Translate((moveDelta * Time.deltaTime) / 2);
         }
+
     }
 
     private void MonsterAnimation()

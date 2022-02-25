@@ -95,4 +95,6 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool(FacingDown, false);
         }
     }
+
+
 }

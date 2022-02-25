@@ -11,5 +11,5 @@ using UnityEngine;
 public class ItemsInScene : ScriptableObject
 {
     public string sceneName;
-    [InlineEditor] public List<MarkableObject> objectsInScene;
+    public List<MarkableObject> objectsInScene;
 }

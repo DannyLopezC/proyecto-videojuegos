@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eea4ebb1bb14bf478ba1fc0ecdfe3e9, type: 3}
   m_Name: ObjectsInFloor2
   m_EditorClassIdentifier: 
-  sceneName: 
-  objectsInScene: []
+  sceneName: Floor_2
+  objectsInScene:
+  - idObject: 3
+    isTaken: 0
+  - idObject: 9
+    isTaken: 0
+  - idObject: 10
+    isTaken: 0
+  - idObject: 10
+    isTaken: 0
+  - idObject: 8
+    isTaken: 0

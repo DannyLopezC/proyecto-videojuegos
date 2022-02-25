@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class InventarioManager : MonoBehaviour {
-
+public class InventarioManager : MonoBehaviour
+{
     [System.Serializable]
     public struct ObjetoInventarioId
     {
@@ -18,6 +20,7 @@ public class InventarioManager : MonoBehaviour {
     }
 
     public GameObject Inventario;
+    public GameObject objects;
     public InventarioBD baseDatos;
     public List<ObjetoInventarioId> inventario;
 
@@ -32,9 +35,11 @@ public class InventarioManager : MonoBehaviour {
                 return;
             }
         }
+
         inventario.Add(new ObjetoInventarioId(id, cantidad));
         updateInventario();
     }
+
     public void deleteInventario(int id, int cantidad)
     {
         for (int i = 0; i < inventario.Count; i++)
@@ -48,10 +53,11 @@ public class InventarioManager : MonoBehaviour {
                 return;
             }
         }
+
         Debug.LogError("No existe el objeto a eliminar");
     }
 
-    public void IntercambiarPuestos(int i1 , int i2)
+    public void IntercambiarPuestos(int i1, int i2)
     {
         ObjetoInventarioId i = inventario[i1];
         inventario[i1] = inventario[i2];
@@ -61,17 +67,19 @@ public class InventarioManager : MonoBehaviour {
 
     public void Start()
     {
+        GameManager.instance.container = objects;
+        GameManager.instance.ChargeItems(SceneManager.GetActiveScene().name);
         updateInventario();
     }
 
     public void Update()
     {
-        if( Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             sacarDelInventario();
         }
 
-        if( Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             updateInventario();
         }
@@ -97,7 +105,8 @@ public class InventarioManager : MonoBehaviour {
                 pool[i].cambiarColorFondo();
 
                 pool[i].boton.onClick.RemoveAllListeners();
-                pool[i].boton.onClick.AddListener(() => gameObject.SendMessage(baseDatos.baseDatos[o.id].funcion, SendMessageOptions.DontRequireReceiver));
+                pool[i].boton.onClick.AddListener(() =>
+                    gameObject.SendMessage(baseDatos.baseDatos[o.id].funcion, SendMessageOptions.DontRequireReceiver));
 
                 pool[i].gameObject.SetActive(true);
             }
@@ -106,6 +115,7 @@ public class InventarioManager : MonoBehaviour {
                 pool[i].gameObject.SetActive(false);
             }
         }
+
         if (inventario.Count > pool.Count)
         {
             for (int i = pool.Count; i < inventario.Count; i++)
@@ -113,7 +123,7 @@ public class InventarioManager : MonoBehaviour {
                 InventarioObjetoInterface oi = Instantiate(prefab, inventarioUI);
                 pool.Add(oi);
 
-                oi.transform.position = Vector3.zero; 
+                oi.transform.position = Vector3.zero;
                 oi.transform.localScale = Vector3.one;
 
                 ObjetoInventarioId o = inventario[i];
@@ -125,17 +135,21 @@ public class InventarioManager : MonoBehaviour {
                 pool[i].cambiarColorFondo();
 
                 pool[i].boton.onClick.RemoveAllListeners();
-                pool[i].boton.onClick.AddListener(() => gameObject.SendMessage(baseDatos.baseDatos[o.id].funcion, SendMessageOptions.DontRequireReceiver));
+                pool[i].boton.onClick.AddListener(() =>
+                    gameObject.SendMessage(baseDatos.baseDatos[o.id].funcion, SendMessageOptions.DontRequireReceiver));
 
                 pool[i].gameObject.SetActive(true);
             }
         }
     }
 
-    public void sacarDelInventario(){
-        for (int i = 0; i < pool.Count; i++){
+    public void sacarDelInventario()
+    {
+        for (int i = 0; i < pool.Count; i++)
+        {
             print(pool[i].isActive);
-            if(!pool[i].isActive){
+            if (!pool[i].isActive)
+            {
                 deleteInventario(pool[i].id, 1);
                 print("Objeto eliminado");
                 break;

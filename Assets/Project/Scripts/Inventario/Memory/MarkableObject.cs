@@ -5,8 +5,8 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 
 [Serializable]
-public class MarkableObject : MonoBehaviour
+public class MarkableObject
 {
-    [InlineEditor] public List<GameObject> objectTaken;
+    public int idObject;
     public bool isTaken;
 }

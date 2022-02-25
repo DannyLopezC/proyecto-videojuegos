@@ -50,8 +50,8 @@ MonoBehaviour:
   occlusionLayer: 0
   translucentLayer: 0
   translucentPresetId: 0
-  color: {r: 0.5, g: 0.5, b: 0.5, a: 0.399}
-  size: 2.3
+  color: {r: 0.5, g: 0.5, b: 0.5, a: 0.362}
+  size: 2
   spotAngleInner: 360
   spotAngleOuter: 360
   coreSize: 0.5
@@ -168,7 +168,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5527596844759470724}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -212,9 +212,12 @@ GameObject:
   - component: {fileID: 6695865827353906238}
   - component: {fileID: 6695865827353906227}
   - component: {fileID: 3819296077252979179}
+  - component: {fileID: 6695865826543636262}
+  - component: {fileID: 6695865826543636264}
+  - component: {fileID: 731961752}
   m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -298,6 +301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492120259d754bf4ba48e1724b7d3e56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthPoints: 0
 --- !u!61 &6695865827353906227
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -343,3 +347,53 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6695865826543636262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6695865827353906226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac11421b9d9abd40977459aaf5ef0b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Inventario: {fileID: 0}
+  baseDatos: {fileID: 11400000, guid: 5f9e7c562735b874f975c5ff105a031e, type: 2}
+  inventario: []
+  prefab: {fileID: 5107230591680655320, guid: fc2bcab07ee68a944b43a843707b1e3e, type: 3}
+  inventarioUI: {fileID: 0}
+--- !u!114 &6695865826543636264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6695865827353906226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d153c0e5fab582443880c4ff3c0233fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &731961752
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6695865827353906226}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

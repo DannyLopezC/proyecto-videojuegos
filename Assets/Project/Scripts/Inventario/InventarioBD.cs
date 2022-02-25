@@ -13,15 +13,15 @@ public class InventarioBD : ScriptableObject
         public Uso uso;
         public string caracteristicas;
         public string funcion;
+        public ItemsInScene scene;
     }
+
     public enum Uso
     {
-        acomulable,
+        acumulable,
         equipable,
         consumible
     }
 
     public ObjetoInventario[] baseDatos;
-
 }
-

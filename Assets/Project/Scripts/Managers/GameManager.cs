@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using Sirenix.OdinInspector;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class GameManager : MonoBehaviour
 
     [InlineEditor] public List<ItemsInScene> itemsInScene;
     public GameObject container;
+
+    private bool inWinScene;
 
     private void Awake()
     {
@@ -27,6 +30,11 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        StartGame();
+    }
+
+    public void StartGame()
+    {
         foreach (var itemList in itemsInScene)
         {
             foreach (var item in itemList.objectsInScene)
@@ -34,10 +42,27 @@ public class GameManager : MonoBehaviour
                 item.isTaken = false;
             }
         }
+
+        inventario.Clear();
+    }
+
+    private void Update()
+    {
+        foreach (var itemsList in itemsInScene)
+        {
+            foreach (var markableObject in itemsList.objectsInScene)
+            {
+                if (!markableObject.isTaken) return;
+            }
+        }
+
+        if (!inWinScene) SceneManager.LoadScene("WinScreen");
+        inWinScene = true;
     }
 
     public void ChargeItems(string sceneName)
     {
+        inWinScene = false;
         ItemsInScene itemList = itemsInScene.Find(x => x.sceneName == sceneName);
 
         foreach (var item in itemList.objectsInScene)

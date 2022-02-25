@@ -15,12 +15,12 @@ MonoBehaviour:
   sceneName: Map
   objectsInScene:
   - idObject: 1
-    isTaken: 1
+    isTaken: 0
   - idObject: 2
-    isTaken: 1
+    isTaken: 0
   - idObject: 0
-    isTaken: 1
+    isTaken: 0
   - idObject: 7
-    isTaken: 1
+    isTaken: 0
   - idObject: 11
-    isTaken: 1
+    isTaken: 0

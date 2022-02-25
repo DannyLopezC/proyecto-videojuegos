@@ -17,10 +17,8 @@ MonoBehaviour:
   - idObject: 3
     isTaken: 1
   - idObject: 9
-    isTaken: 1
-  - idObject: 10
-    isTaken: 1
+    isTaken: 0
   - idObject: 10
     isTaken: 1
   - idObject: 8
-    isTaken: 1
+    isTaken: 0

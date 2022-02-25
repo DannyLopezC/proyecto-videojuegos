@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
     }
 
     public void EsceneNewGame(){
-        SceneManager.LoadScene("Map");
+        SceneManager.LoadScene("Floor_2");
     }
     public void EsceneCutePuppies(){
         SceneManager.LoadScene("Sorry");

@@ -17,13 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Project/Scenes/Inventario.unity
     guid: 3eefd372c2c3f314688bba1d3e6a0fdf
-  - enabled: 1
-    path: Assets/Project/Scenes/Map.unity
-    guid: 5f9316db673d56b498b4c66335e6b237
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Project/Scenes/Sorry.unity
     guid: e43bf3c48758f4a418eaf6025514e6aa
   - enabled: 1
     path: Assets/Project/Scenes/gameOver.unity
     guid: e55608d53987c1a4caac097bc9bb69bb
+  - enabled: 1
+    path: Assets/Project/Scenes/Map.unity
+    guid: 71c907c0e06c00340a6f10f048689f9d
   m_configObjects: {}

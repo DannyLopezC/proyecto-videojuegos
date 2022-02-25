@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 7ca49e92d6760434b9b964a64c68e8eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6758415781470523281
+    second: Nicorachi___on_Twitter-removebg-preview_0
+  - first:
+      213: -8169841530657531579
+    second: Nicorachi___on_Twitter-removebg-preview_1
+  - first:
+      213: -3514752030104220025
+    second: Nicorachi___on_Twitter-removebg-preview_2
+  - first:
+      213: -1164700679734004410
+    second: Nicorachi___on_Twitter-removebg-preview_3
+  - first:
+      213: -3951598765623706960
+    second: Nicorachi___on_Twitter-removebg-preview_4
+  - first:
+      213: 9106749253189208189
+    second: Nicorachi___on_Twitter-removebg-preview_5
+  - first:
+      213: -4974905616984452740
+    second: Nicorachi___on_Twitter-removebg-preview_6
+  - first:
+      213: -7967227455231418136
+    second: Nicorachi___on_Twitter-removebg-preview_7
+  - first:
+      213: -3493868709876007793
+    second: Nicorachi___on_Twitter-removebg-preview_8
+  - first:
+      213: -2078036954330502475
+    second: Nicorachi___on_Twitter-removebg-preview_9
+  - first:
+      213: -4563360301082186834
+    second: Nicorachi___on_Twitter-removebg-preview_10
+  - first:
+      213: 7819675070069860030
+    second: Nicorachi___on_Twitter-removebg-preview_11
+  - first:
+      213: 6809738587687051869
+    second: Nicorachi___on_Twitter-removebg-preview_12
+  - first:
+      213: -4246031990972295316
+    second: Nicorachi___on_Twitter-removebg-preview_13
+  - first:
+      213: 6715996947920442395
+    second: Nicorachi___on_Twitter-removebg-preview_14
+  - first:
+      213: -5641770449927342200
+    second: Nicorachi___on_Twitter-removebg-preview_15
+  - first:
+      213: 6118510480008586541
+    second: Nicorachi___on_Twitter-removebg-preview_16
+  - first:
+      213: 6157042742801486878
+    second: Nicorachi___on_Twitter-removebg-preview_17
+  - first:
+      213: 137737754844071060
+    second: Nicorachi___on_Twitter-removebg-preview_18
+  - first:
+      213: -2702019488882786300
+    second: Nicorachi___on_Twitter-removebg-preview_19
+  - first:
+      213: 4651297834613626410
+    second: Nicorachi___on_Twitter-removebg-preview_20
+  - first:
+      213: 2829856087850911625
+    second: Nicorachi___on_Twitter-removebg-preview_21
+  - first:
+      213: 346678668967470128
+    second: Nicorachi___on_Twitter-removebg-preview_22
+  - first:
+      213: -7810896121285925613
+    second: Nicorachi___on_Twitter-removebg-preview_23
+  - first:
+      213: -2038882026625383054
+    second: Nicorachi___on_Twitter-removebg-preview_24
+  - first:
+      213: -4670307941225261546
+    second: Nicorachi___on_Twitter-removebg-preview_25
+  - first:
+      213: -4834781988543269836
+    second: Nicorachi___on_Twitter-removebg-preview_26
+  - first:
+      213: 1064702182658643819
+    second: Nicorachi___on_Twitter-removebg-preview_27
+  - first:
+      213: 122297710821670628
+    second: Nicorachi___on_Twitter-removebg-preview_28
+  - first:
+      213: 8760749189614625198
+    second: Nicorachi___on_Twitter-removebg-preview_29
+  - first:
+      213: 2982460286031854063
+    second: Nicorachi___on_Twitter-removebg-preview_30
+  - first:
+      213: 8393821807450414835
+    second: Nicorachi___on_Twitter-removebg-preview_31
+  - first:
+      213: -7399925098310353272
+    second: Nicorachi___on_Twitter-removebg-preview_32
+  - first:
+      213: 3095088618760828156
+    second: Nicorachi___on_Twitter-removebg-preview_33
+  - first:
+      213: 700212896155455828
+    second: Nicorachi___on_Twitter-removebg-preview_34
+  - first:
+      213: 3367220450854154102
+    second: Nicorachi___on_Twitter-removebg-preview_35
+  - first:
+      213: 8940782353069962130
+    second: Nicorachi___on_Twitter-removebg-preview_36
+  - first:
+      213: -5020519688525680544
+    second: Nicorachi___on_Twitter-removebg-preview_37
+  - first:
+      213: 1476354501184654778
+    second: Nicorachi___on_Twitter-removebg-preview_38
+  - first:
+      213: 8402597821570907779
+    second: Nicorachi___on_Twitter-removebg-preview_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 303
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fc1fa7857bacd50800000000000000
+      internalID: 6758415781470523281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 309
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5499cedd964ee9e80800000000000000
+      internalID: -8169841530657531579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 300
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e0e0c86a7193fc0800000000000000
+      internalID: -3514752030104220025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 306
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6457cc217e626dfe0800000000000000
+      internalID: -1164700679734004410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 309
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba7020fbd91929c0800000000000000
+      internalID: -3951598765623706960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 309
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7885e6323ca16e70800000000000000
+      internalID: 9106749253189208189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 312
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71db8413b595fab0800000000000000
+      internalID: -4974905616984452740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 312
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0213677d8be6190800000000000000
+      internalID: -7967227455231418136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 228
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cfcff6be8438fc0800000000000000
+      internalID: -3493868709876007793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 228
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baeef266645923e0800000000000000
+      internalID: -2078036954330502475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 228
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab60efdbffaba0c0800000000000000
+      internalID: -4563360301082186834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 231
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6ed7abb01158c60800000000000000
+      internalID: 7819675070069860030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 234
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d526b5c7a2d018e50800000000000000
+      internalID: 6809738587687051869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 228
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67d62196601315c0800000000000000
+      internalID: -4246031990972295316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 237
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14d76924a3043d50800000000000000
+      internalID: 6715996947920442395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 237
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887f8cbcaa764b1b0800000000000000
+      internalID: -5641770449927342200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 165
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25aa634dd059e450800000000000000
+      internalID: 6118510480008586541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 156
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14549fc0c5327550800000000000000
+      internalID: 6157042742801486878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 162
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49404ad12c759e100800000000000000
+      internalID: 137737754844071060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 159
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40085fc379f708ad0800000000000000
+      internalID: -2702019488882786300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 159
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2650b8acbabc8040800000000000000
+      internalID: 4651297834613626410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 156
+        width: 66
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98784d16e1ba54720800000000000000
+      internalID: 2829856087850911625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 156
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034e203a966afc400800000000000000
+      internalID: 346678668967470128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 162
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315a6419c5f1a9390800000000000000
+      internalID: -7810896121285925613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 93
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275c018699f64b3e0800000000000000
+      internalID: -2038882026625383054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 84
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616159bfbabbf2fb0800000000000000
+      internalID: -4670307941225261546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 84
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434fb6ea56767ecb0800000000000000
+      internalID: -4834781988543269836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 90
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6793fc7ef496ce00800000000000000
+      internalID: 1064702182658643819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 84
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee7e5abe1d72b100800000000000000
+      internalID: 122297710821670628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 84
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea16545b8fe649970800000000000000
+      internalID: 8760749189614625198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 84
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe973a114d3d36920800000000000000
+      internalID: 2982460286031854063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 84
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe52052678dc7470800000000000000
+      internalID: 8393821807450414835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 18
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eb6be545f2e4990800000000000000
+      internalID: -7399925098310353272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 12
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4f79543b6f3fa20800000000000000
+      internalID: 3095088618760828156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 12
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4515e7e4be7a7b900800000000000000
+      internalID: 700212896155455828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 21
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fa795e825cabe20800000000000000
+      internalID: 3367220450854154102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 15
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293f0d80e2a041c70800000000000000
+      internalID: 8940782353069962130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 15
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060729171f7835ab0800000000000000
+      internalID: -5020519688525680544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 15
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd09a5c8901d7410800000000000000
+      internalID: 1476354501184654778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nicorachi___on_Twitter-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 18
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e743923360c9470800000000000000
+      internalID: 8402597821570907779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

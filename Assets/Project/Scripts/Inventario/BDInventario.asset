@@ -13,33 +13,68 @@ MonoBehaviour:
   m_Name: BDInventario
   m_EditorClassIdentifier: 
   baseDatos:
-  - nombre: pergamino
-    sprite: {fileID: 5088316998373936774, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+  - nombre: llave
+    sprite: {fileID: -4974905616984452740, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
     uso: 0
     caracteristicas: 
     funcion: 
   - nombre: hoja
-    sprite: {fileID: -1495796495427720775, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+    sprite: {fileID: -5641770449927342200, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
     uso: 0
     caracteristicas: 
     funcion: 
-  - nombre: libros
-    sprite: {fileID: -82757199298946268, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+  - nombre: libro
+    sprite: {fileID: 8940782353069962130, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
     uso: 0
     caracteristicas: 
     funcion: 
-  - nombre: posion
-    sprite: {fileID: -4576100563654837243, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+  - nombre: foto
+    sprite: {fileID: 3367220450854154102, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
     uso: 2
     caracteristicas: 
-    funcion: Pocion
-  - nombre: crital
-    sprite: {fileID: 6963310780842402770, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+    funcion: 
+  - nombre: cd
+    sprite: {fileID: 8760749189614625198, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
     uso: 1
     caracteristicas: 
     funcion: 
   - nombre: cofre
-    sprite: {fileID: 3197245356676191804, guid: 390d2ea4e75c23b44845355c98a8de7b, type: 3}
+    sprite: {fileID: 2982460286031854063, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
+    uso: 1
+    caracteristicas: 
+    funcion: 
+  - nombre: botiquin
+    sprite: {fileID: 8393821807450414835, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
+    uso: 1
+    caracteristicas: 
+    funcion: 
+  - nombre: carta
+    sprite: {fileID: -2038882026625383054, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
+    uso: 1
+    caracteristicas: 
+    funcion: 
+  - nombre: videojuego
+    sprite: {fileID: 9106749253189208189, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
+    uso: 1
+    caracteristicas: 
+    funcion: 
+  - nombre: llaveDorada
+    sprite: {fileID: -7967227455231418136, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
+    uso: 1
+    caracteristicas: 
+    funcion: 
+  - nombre: Cristal
+    sprite: {fileID: -3514752030104220025, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
+    uso: 1
+    caracteristicas: 
+    funcion: 
+  - nombre: polvo
+    sprite: {fileID: -8169841530657531579, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
+    uso: 1
+    caracteristicas: 
+    funcion: 
+  - nombre: leche
+    sprite: {fileID: -3493868709876007793, guid: 7ca49e92d6760434b9b964a64c68e8eb, type: 3}
     uso: 1
     caracteristicas: 
     funcion: 

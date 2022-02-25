@@ -2,26 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Sirenix.OdinInspector;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    public DialogueManager dialogueManager;
-    public Dialogue firstDialogue;
-    public Dialogue goodbyeDialogue;
-
-    public bool inDialogue;
+    [InlineEditor] public List<ItemsInScene> itemsInScene;
 
     private void Awake()
     {
-        if (GameManager.instance != null)
+        if (instance != null)
         {
             Destroy(gameObject);
             return;
         }
 
         instance = this;
-        //DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject);
+    }
+
+    private void Start()
+    {
     }
 }

@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class MonsterMovement : MonoBehaviour
 {
+
     public float chaseLength = 5;
     private bool lookAtPlayer;
 
@@ -71,4 +72,14 @@ public class MonsterMovement : MonoBehaviour
             transform.Translate((moveDelta * Time.deltaTime) / 2);
         }
     }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        Debug.Log("Collision");
+        if (col.gameObject.name == "Player"){
+            player.dealDamage();
+        }
+    }
+
+    
 }

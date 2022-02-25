@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    public List<InventarioManager.ObjetoInventarioId> inventario;
+
     [InlineEditor] public List<ItemsInScene> itemsInScene;
     public GameObject container;
 

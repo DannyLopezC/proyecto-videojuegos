@@ -22,33 +22,34 @@ public class InventarioManager : MonoBehaviour
     public GameObject Inventario;
     public GameObject objects;
     public InventarioBD baseDatos;
-    public List<ObjetoInventarioId> inventario;
 
     public void addInventario(int id, int cantidad)
     {
-        for (int i = 0; i < inventario.Count; i++)
+        for (int i = 0; i < GameManager.instance.inventario.Count; i++)
         {
-            if (inventario[i].id == id)
+            if (GameManager.instance.inventario[i].id == id)
             {
-                inventario[i] = new ObjetoInventarioId(inventario[i].id, inventario[i].cantidad + cantidad);
+                GameManager.instance.inventario[i] = new ObjetoInventarioId(GameManager.instance.inventario[i].id,
+                    GameManager.instance.inventario[i].cantidad + cantidad);
                 updateInventario();
                 return;
             }
         }
 
-        inventario.Add(new ObjetoInventarioId(id, cantidad));
+        GameManager.instance.inventario.Add(new ObjetoInventarioId(id, cantidad));
         updateInventario();
     }
 
     public void deleteInventario(int id, int cantidad)
     {
-        for (int i = 0; i < inventario.Count; i++)
+        for (int i = 0; i < GameManager.instance.inventario.Count; i++)
         {
-            if (inventario[i].id == id)
+            if (GameManager.instance.inventario[i].id == id)
             {
-                inventario[i] = new ObjetoInventarioId(inventario[i].id, inventario[i].cantidad - cantidad);
-                if (inventario[i].cantidad <= 0)
-                    inventario.Remove(inventario[i]);
+                GameManager.instance.inventario[i] = new ObjetoInventarioId(GameManager.instance.inventario[i].id,
+                    GameManager.instance.inventario[i].cantidad - cantidad);
+                if (GameManager.instance.inventario[i].cantidad <= 0)
+                    GameManager.instance.inventario.Remove(GameManager.instance.inventario[i]);
                 updateInventario();
                 return;
             }
@@ -59,9 +60,9 @@ public class InventarioManager : MonoBehaviour
 
     public void IntercambiarPuestos(int i1, int i2)
     {
-        ObjetoInventarioId i = inventario[i1];
-        inventario[i1] = inventario[i2];
-        inventario[i2] = i;
+        ObjetoInventarioId i = GameManager.instance.inventario[i1];
+        GameManager.instance.inventario[i1] = GameManager.instance.inventario[i2];
+        GameManager.instance.inventario[i2] = i;
         updateInventario();
     }
 
@@ -92,12 +93,11 @@ public class InventarioManager : MonoBehaviour
 
     public void updateInventario()
     {
-        print("InventarioActualizado");
         for (int i = 0; i < pool.Count; i++)
         {
-            if (i < inventario.Count)
+            if (i < GameManager.instance.inventario.Count)
             {
-                ObjetoInventarioId o = inventario[i];
+                ObjetoInventarioId o = GameManager.instance.inventario[i];
                 pool[i].sprite.sprite = baseDatos.baseDatos[o.id].sprite;
                 pool[i].cantidad.text = o.cantidad.ToString();
                 pool[i].id = i;
@@ -116,9 +116,9 @@ public class InventarioManager : MonoBehaviour
             }
         }
 
-        if (inventario.Count > pool.Count)
+        if (GameManager.instance.inventario.Count > pool.Count)
         {
-            for (int i = pool.Count; i < inventario.Count; i++)
+            for (int i = pool.Count; i < GameManager.instance.inventario.Count; i++)
             {
                 InventarioObjetoInterface oi = Instantiate(prefab, inventarioUI);
                 pool.Add(oi);
@@ -126,7 +126,7 @@ public class InventarioManager : MonoBehaviour
                 oi.transform.position = Vector3.zero;
                 oi.transform.localScale = Vector3.one;
 
-                ObjetoInventarioId o = inventario[i];
+                ObjetoInventarioId o = GameManager.instance.inventario[i];
                 pool[i].sprite.sprite = baseDatos.baseDatos[o.id].sprite;
                 pool[i].cantidad.text = o.cantidad.ToString();
                 pool[i].id = i;

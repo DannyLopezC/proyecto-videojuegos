@@ -124,4 +124,13 @@ public class MonsterMovement : MonoBehaviour
         }
     }
 
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        Debug.Log("Collision");
+        if (col.gameObject.name == "Player"){
+            player.dealDamage();
+        }
+    }
+
+
 }

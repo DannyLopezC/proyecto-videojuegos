@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(BoxCollider2D), typeof(Animator))]
 public class PlayerMovement : MonoBehaviour
@@ -9,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 moveDelta;
     private RaycastHit2D hit;
     private Animator animator;
+
+    public int healthPoints;
 
     private static readonly int Vertical = Animator.StringToHash("Vertical");
     private static readonly int Horizontal = Animator.StringToHash("Horizontal");
@@ -20,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        healthPoints = 100;
         boxCollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
     }
@@ -27,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         Movement();
+        checkGameOver();
     }
 
     private void Movement()
@@ -96,5 +101,18 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void dealDamage(){
 
+        this.healthPoints=this.healthPoints-40;
+    }
+
+    public int getDamage(){
+        return this.healthPoints;
+    }
+
+    void checkGameOver(){
+        if (this.healthPoints <= 0){
+            SceneManager.LoadScene("gameOver");
+        }
+    }
 }

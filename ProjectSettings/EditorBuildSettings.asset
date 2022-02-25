@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Project/Scenes/Sorry.unity
     guid: e43bf3c48758f4a418eaf6025514e6aa
   - enabled: 1
-    path: Assets/Project/Scenes/Floor_2.unity
-    guid: 290c1e0fefda79f4187f127cf62abab0
+    path: Assets/Project/Scenes/gameOver.unity
+    guid: 406b4037bcb00a74c81ee69eebe7f03d
   m_configObjects: {}
